@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    font-family: PingFang TC;
+    color: #3f5d45;
+}
+
+.all{
+    width: 940px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #3F5D45;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 30px;
+}
+
+.header ul{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+.header ul li{
+    margin-left: 60px;
+}
+.icon{
+    margin-left: 80px;
+}
+
+.banner{
+    flex: 1;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu li{
+    width: 300px;
+    height: 65px;
+    border: 1px solid #EAF0ED;
+}
+
+.menu a{
+    display: block;
+    padding: 20px;
+}
+
+.menu a:hover {
+    background-color: #eaf0ed;
+}
+
+.sweetcategory{
+    color: #eaf0ed;
+    background: #3F5D45;
+    padding: 16px;
+    width: 300px;
+    height: 60px;
+    font-weight: bold;
+}
+
+
+.card ul{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 10px;
+    width: 100%;
+}
+
+.card ul li{
+    position: relative;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 300px
+}
+
+.tag{
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    background-color: #3f5d45;
+    color: #eaf0ed;
+    padding: 10px;
+    position: absolute;
+    margin-left: 20px;
+    letter-spacing: 4px;
+}
+
+.heart{
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+
+
+.card .card_text{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    border-right: 1px solid #EAF0ED;
+}
+.card_text p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    width: 100%;
+    height: 56px;
+    color:#3F5D45;
+    border-left: 1px solid #EAF0ED;
+}
+
+.card_text_light{
+    font-weight: lighter;
+}
+
+.card_text_blod{
+    font-weight: bold;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #3F5D45;
+    background: #EAF0ED;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.choose_page{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.choose_page ul{
+    display: flex;
+    width: 300px;
+}
+
+.choose_page ul li{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border: 1px solid  #EAF0ED;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_one{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
